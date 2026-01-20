@@ -1,12 +1,11 @@
 import { useState } from 'react';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import Navigation from './components/Navigation';
-import Stats from './components/Stats';
-import Pricing from './components/Pricing';
-import Footer from './components/Footer';
-import IntroScreen from './components/IntroScreen';
-
+import Hero from './components/hero';
+import Features from './components/features';
+import Navigation from './components/navigation';
+import Stats from './components/stats';
+import Pricing from './components/pricing';
+import Footer from './components/footer';
+import IntroScreen from './components/intro-screen';
 
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);
