@@ -1,6 +1,6 @@
 import { Scissors } from 'lucide-react';
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="border-t border-gray-800 bg-black py-12 px-6">
       <div className="max-w-7xl mx-auto">

@@ -1,6 +1,6 @@
 import { Scissors } from 'lucide-react';
 
-export function Navigation() {
+export default function Navigation() {
   return (
     <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-lg border-b border-purple-500/20 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4">

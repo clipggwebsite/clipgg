@@ -45,7 +45,7 @@ const pricingTiers = [
   },
 ];
 
-export function Pricing() {
+export default function Pricing() {
   return (
     <section id="pricing" className="py-20 px-6 bg-gray-950">
       <div className="max-w-7xl mx-auto">

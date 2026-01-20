@@ -23,7 +23,7 @@ const stats = [
   }
 ];
 
-export function Stats() {
+export default function Stats() {
   return (
     <section className="py-20 px-6 bg-gradient-to-b from-black to-gray-950">
       <div className="max-w-7xl mx-auto">

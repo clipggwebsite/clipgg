@@ -5,7 +5,7 @@ interface IntroScreenProps {
   onComplete: () => void;
 }
 
-export function IntroScreen({ onComplete }: IntroScreenProps) {
+export default function IntroScreen({ onComplete }: IntroScreenProps) {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
